@@ -1,6 +1,6 @@
 # Create and run a CI/CD pipeline for an app  #
 
-![](/home/sharker3312/Descargas/Workflow.png)
+![](https://github.com/Sharker3312/Devops-Projects/blob/main/CD%20pipeline%20for%20an%20app/Workflow.png)
 
 `Suggested steps📋:`
 
@@ -25,6 +25,7 @@
 	The  🔨  chosen are a personal decision   
 
 ​         CI/CD: <img height="50" src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png">
+
 [Deployment](https://github.com/spring-projects/spring-petclinic): <img height="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png">  
 
 ## Instructions to replicate the lab ##
