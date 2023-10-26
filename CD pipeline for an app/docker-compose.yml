@@ -1,0 +1,14 @@
+#Simple docker-compose.yml taking from https://github.com/jenkinsci/docker#docker-compose-with-jenkins
+
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - "8080:8080"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+  ssh-agent:
+    image: jenkins/ssh-agent
+volumes:
+  jenkins_home:
