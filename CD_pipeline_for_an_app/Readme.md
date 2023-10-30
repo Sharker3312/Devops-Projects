@@ -1,6 +1,6 @@
 # Create and run a CI/CD pipeline for an app  #
 
-![](https://github.com/Sharker3312/Devops-Projects/blob/main/CD%20pipeline%20for%20an%20app/Workflow.png)
+![](https://github.com/Sharker3312/Devops-Projects/blob/main/CD_pipeline_for_an_app/Workflow.png)
 
 `Suggested steps📋:`
 
