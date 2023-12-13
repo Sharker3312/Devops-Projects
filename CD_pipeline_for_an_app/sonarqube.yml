@@ -1,21 +1,6 @@
-
-
-
 version: "3"
+
 services:
-    #Jenkins service
-  jenkins:
-    image: jenkins/jenkins:lts
-    ports:
-      - "8080:8080"
-      - "8000:8000"	 
-    volumes:	
-      - jenkins_home:/var/jenkins_home
-  ssh-agent:
-    image: jenkins/ssh-agent
-
-
-    #SonarQube service
   sonarqube:
     image: sonarqube:community
     hostname: sonarqube
@@ -26,6 +11,7 @@ services:
       SONAR_JDBC_URL: jdbc:postgresql://db:5432/sonar
       SONAR_JDBC_USERNAME: sonar
       SONAR_JDBC_PASSWORD: sonar
+      SONAR_ES_BOOTSTRAP_CHECKS_DISABLE: "true"  # Nueva línea
     volumes:
       - sonarqube_data:/opt/sonarqube/data
       - sonarqube_extensions:/opt/sonarqube/extensions
@@ -50,4 +36,3 @@ volumes:
   sonarqube_logs:
   postgresql:
   postgresql_data:
-  jenkins_home:

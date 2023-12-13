@@ -19,21 +19,16 @@
   
 - ➡️Add a manual approval stage. Add a stage to your pipeline which requires a manual approval before deploying to production.
   
-- ➡️Deploy an app which comprises a separate frontend and backend (so, two pipelines)
+- ➡️Deploy an app which comprises a separate frontend and backend (so, two pipelines) 
 
-`Tools  🔨  Used:`
-	The  🔨  chosen are a personal decision   
-
-​         CI/CD: <img height="50" src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png">
-
-[Deployment](https://github.com/spring-projects/spring-petclinic): <img height="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png">  
-
-## Instructions to replicate the lab ##
-
-1
+[Blog]( https://medium.com/@fsharker0810/mastering-ci-cd-building-a-scalable-node-js-pipeline-with-jenkins-and-docker-on-aws-part-1-e14f40e221e5 ) : <img height="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png">  
 
 
 
-[Reference](https://www.tutorialworks.com/devops-project-ideas/#project-2-create-and-run-a-cicd-pipeline-for-an-app)
+
+
+
+
+
 
  
